@@ -1,0 +1,81 @@
+
+#root > div > div > div.add-task > div > form > button {
+    margin: 14px 0px 0px 552px
+}
+.input-add{
+    margin: 0px 0px 0px 0px;
+    width: 97px;
+    height: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+}
+.input-add:focus{
+    border: 1px solid #000;
+}
+.input-add::placeholder{
+    color: #999;
+}
+.input-add:focus::placeholder{
+    color: #000;
+}
+.input-add::-webkit-scrollbar{
+    width: 0px;
+}
+.input-add::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+.input-add::-webkit-scrollbar-thumb{
+    background: #888;
+}
+.input-add::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+.input-add::-webkit-scrollbar-thumb:active{
+    background: #555;
+}
+.input-add::-webkit-scrollbar-thumb:horizontal{
+    height: 10px;
+}
+.input-add::-webkit-scrollbar-thumb:vertical{
+    width: 10px;
+}
+.input-add::-webkit-scrollbar-thumb:horizontal:hover{
+    height: 10px;
+}
+.input-add::-webkit-scrollbar-thumb:vertical:hover{
+    width: 10px;
+}
+.input-add::-webkit-scrollbar-thumb:horizontal:active{
+    height: 10px;
+}
+.input-add::-webkit-scrollbar-thumb:vertical:active{
+    width: 10px;
+}
+.input-add::-webkit-scrollbar-thumb:horizontal:window-inactive{
+    height: 10px;
+}
+.input-add::-webkit-scrollbar-thumb:vertical:window-inactive{
+    width: 10px;
+}
+.input-add::-webkit-scrollbar-thumb:horizontal:hover:window-inactive{
+    height: 10px;
+}
+.input-add::-webkit-scrollbar-corner{
+    background: #f1f1f1;
+}
+.btn-add{
+    margin: 0 0 0 14px;
+    width: 71px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}

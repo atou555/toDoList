@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+/* make in sort of in the main-content class we put left-sidebar and kanban-board side by side */
+.main-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  
+}
