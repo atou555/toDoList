@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@doist/todoist-api-typescript": "^2.1.2",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
@@ -14,11 +15,16 @@
     "@testing-library/user-event": "^13.5.0",
     "mui-colors": "^1.0.2",
     "mui-styles": "^5.5.0",
+    "nanoid": "^4.0.1",
+    "prettier": "^2.8.4",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-beautiful-dnd": "^13.1.1",
     "react-bootstrap": "^2.7.0",
+    "react-datepicker": "^4.10.0",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.43.1",
     "react-i18next": "^12.1.5",
     "react-icons": "^4.7.1",
     "react-redux": "^8.0.5",
@@ -54,6 +60,12 @@
     ]
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.19.1"
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }

@@ -1,0 +1,47 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set background color */
+  body {
+    background-color: #f6f6f6;
+  }
+  
+  /* Set font family and size */
+  body, input, button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Set link styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Set button styles */
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #1abc9c;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #148f77;
+  }
+  
+  button:active {
+    background-color: #117864;
+  }
+  

@@ -1,12 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
-
-/* make in sort of in the main-content class we put left-sidebar and kanban-board side by side */
-.main-content{
+.app {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app__body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-between;
   padding: 1rem;
-  
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style de la barre latérale */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  min-width: 200px;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style du tableau kanban */
+.kanban-board {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Style des cartes */
+.task {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Style des couleurs de la carte */
+.task--red {
+  border: 2px solid #ff0000;
+}
+
+.task--yellow {
+  border: 2px solid #ffd700;
+}
+
+.task--green {
+  border: 2px solid #00ff00;
+}
+
+/* Style du body de la page */
+body {
+  background-image: url("./assets/images/background.jpg");
+  background-size: cover;
 }
